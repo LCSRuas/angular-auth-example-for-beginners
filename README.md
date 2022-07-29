@@ -1,4 +1,4 @@
-# Angular Auth Exemple for beginners
+# Angular Auth Example for beginners
 
 ## Portugues (pt-br)
 
