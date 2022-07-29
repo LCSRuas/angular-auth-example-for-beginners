@@ -1,0 +1,84 @@
+.box-login {
+    margin: 20vh auto;
+    padding: 30px 0;
+
+    width: 30vw;
+    height: auto;
+
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+    box-shadow: 0px 0px 45px -20px rgba(0, 0, 0, 0.7);
+}
+
+input {
+    width: 50%;
+    padding: 8px 35px;
+    margin: 12px auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #dadada;
+}
+
+.txt-login {
+    background: url(../../../../../assets/icon/user.svg) no-repeat scroll 5px 7px, #F7F7F7;
+}
+
+.txt-password {
+    background: url(../../../../../assets/icon/lock.svg) no-repeat scroll 5px 7px, #F7F7F7;
+}
+
+.btn-login {
+    margin: 30px auto 10px auto;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #00dfa7;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.btn-login:hover {
+    background-color: #00e4ba;
+    ;
+    transition: 0.4s;
+}
+
+.lbl-forgot {
+    position: relative;
+    top: -10px;
+    margin-left: 4.5vw;
+    text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+}
+
+.lbl-forgot:hover {
+    color: #2c2c2c;
+}
+
+.signup {
+    color: #00997d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 870px) {
+    .box-login {
+        margin: 20vh auto;
+        padding: 30px 0;
+
+        width: 90vw;
+        height: auto;
+
+        background-color: #FFFFFF;
+        border-radius: 8px;
+
+        box-shadow: 0px 0px 45px -20px rgba(0, 0, 0, 0.7);
+    }
+}

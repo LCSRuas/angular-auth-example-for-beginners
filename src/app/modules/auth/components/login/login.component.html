@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="box-login">
+        <div class="row">
+            <div class="col text-center">
+                <form [formGroup]="loginForm">
+                    <div class="row">
+                        <h1>LOGIN</h1>
+                    </div>
+                    <div class="row">
+                        <input formControlName="userLogin" class="txt-login" type="text" />
+                    </div>
+                    <div class="row">
+                        <input formControlName="passwordLogin" class="txt-password" type="password" />
+                    </div>
+                    <div class="row">
+                        <label class="lbl-forgot">Forgot Password?</label>
+                    </div>
+                    <div class="row">
+                        <button [ngStyle]="{'background-color': !loginForm.valid ? '#cecece' : '#00dfa7' }"
+                            [disabled]="!loginForm.valid" (click)="login()" class="btn-login">Login</button>
+                    </div>
+                    <div class="row">
+                        <label>Dont have account? <span class="signup">Sign Up</span></label>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

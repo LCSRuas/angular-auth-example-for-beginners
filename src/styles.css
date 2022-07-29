@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+    background: rgb(0, 255, 154);
+    background: radial-gradient(circle, rgb(0, 219, 132) 0%, rgb(0, 228, 186) 50%, rgb(0, 228, 186) 100%);
+}
