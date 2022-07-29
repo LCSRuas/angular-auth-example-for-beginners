@@ -1,27 +1,17 @@
-# AuthExempleLcsruas
+# Angular Auth Exemple for beginners
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+## Portugues (pt-br)
 
-## Development server
+Exemplo de autenticação em Angular utilizando lazyloading com proteção das rotas dos modulos.
+Versão do Angular: 14
+Como iniciar o Projeto: ng serve
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## English (en-us)
 
-## Code scaffolding
+Angular authentication example using lazyloading with protection of module routes.
+Angular Version: 14
+How to start the Project: ng serve
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Author:
+github.com/lcsruas
+LCSRuas
